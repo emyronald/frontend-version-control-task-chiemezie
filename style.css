@@ -23,9 +23,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
-span{
-    font-weight: bold;
-    color: rgb(160, 215, 160);
+span {
+  font-weight: bold;
+  color: rgb(160, 215, 160);
 }
 
 main {
@@ -33,23 +33,31 @@ main {
   max-width: 800px;
   margin: 0 auto;
   background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   border-radius: 8px;
 }
 
 ul {
   list-style: none;
   display: flex;
-    gap: 2rem;
+  gap: 2rem;
 }
 
 footer {
   background: #222;
   color: #fff;
-  text-align: center;
   padding: 1rem;
   position: fixed;
   width: 100%;
   bottom: 0;
   left: 0;
+
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
 }
